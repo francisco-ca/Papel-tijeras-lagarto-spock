@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+<div class="container">
+	<h1> Piedra  Papel  Tijeras  Lagarto  Spock </h1>
+	<div class="opciones">
+    <p> El juego está basado en el clásico pierdra, papel o tijeras pero esta vez con dos variables más conocidas como "Spock" y "Lagarto". Esta versión proviene de la serie "The Big Bang Theory".
+    <br><br>Las reglas son las siguientes: </p>
+    <p> El juego es totalmente aleatorio y te enfrentas ni nada mas ni nada menos que a tu propia computadora.</p>
+    <div class="row">
+    <div class="col-4">
+    <ul>
+    <li> Tijeras cortan papel</li>
+<li>Papel cubre piedra</li>
+<li>Piedra aplasta lagarto</li>
+<li>Lagarto envenena Spock</li>
+<li>Spock destruye tijeras</li>
+<li>Tijeras decapitan lagarto</li>
+<li>Lagarto come papel</li>
+<li>Papel desaprueba Spock</li>
+<li>Spock vaporiza piedra</li>
+<li>Piedra aplasta tijeras</li>
+    </ul>
+    
+    </div>
+    <div class="col-8">
+    <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2016/09/27/9342150C-644A-4FCD-B528-A8DB1C522674/69.jpg"></img>
+    </div>
+    </div>
+		<form id="frm1">
+			<label for="fname"><strong>Tu elección:</strong></label>
+			<input  type="text" id="userChoice" name="fname"><p class="tip">Tip: Escribe tu elección y apreta "Enter" cuando estés decidido!</p> </input>
+            <p id="resultado"> </p>
+
+		</form>
+       
+	</div>
+
+	</div>
+
+	<script src="app.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+
+</body>
+
+</html>
